@@ -1,68 +1,54 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 50px 0;
-    text-align: center;
+  background: #c62828;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
 }
 
-header h1 {
-    font-size: 2.5em;
+.menu-item {
+  background: white;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
-header p {
-    font-size: 1.2em;
-    margin: 10px 0;
+.menu-item h3 {
+  margin-top: 0;
 }
 
-header .btn {
-    padding: 10px 20px;
-    background-color: #ff7f50;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+button {
+  padding: 0.5rem 1rem;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-header .btn:hover {
-    background-color: #ff6347;
+#cart {
+  background: #fff8e1;
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px dashed #fbc02d;
+  border-radius: 8px;
 }
 
-.section {
-    padding: 50px 0;
-}
-
-.section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.project {
-    margin-bottom: 20px;
-}
-
-.project h3 {
-    font-size: 1.5em;
+#cart h2 {
+  margin-top: 0;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+  background: #e0e0e0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
 }
