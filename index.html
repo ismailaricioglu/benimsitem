@@ -1,62 +1,30 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portföy - Adınız</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lezzetli Dönerci</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <h1>Lezzetli Dönerci</h1>
+    <p>En iyi döner burada!</p>
+  </header>
 
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <h1>Merhaba, Benim Adım [Adınız]</h1>
-            <p>Full Stack Developer | Yazılım Geliştirici</p>
-            <a href="#about" class="btn">Daha Fazla Bilgi</a>
-        </div>
-    </header>
+  <main id="menu"></main>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2>Hakkımda</h2>
-            <p>Ben bir yazılım geliştiricisiyim. 20 yılı aşkın bir süredir çeşitli projelerde yer aldım ve sürekli öğrenmeye devam ediyorum. İleri düzeyde problem çözme yeteneğimle, projelerdeki zorlukların üstesinden geliyorum.</p>
-        </div>
-    </section>
+  <section id="cart">
+    <h2>Sepet</h2>
+    <ul id="cart-items"></ul>
+    <p id="total">Toplam: 0₺</p>
+    <button onclick="checkout()">Siparişi Tamamla</button>
+  </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>Projelerim</h2>
-            <div class="project">
-                <h3>Proje 1</h3>
-                <p>Proje hakkında kısa bir açıklama.</p>
-            </div>
-            <div class="project">
-                <h3>Proje 2</h3>
-                <p>Proje hakkında kısa bir açıklama.</p>
-            </div>
-            <div class="project">
-                <h3>Proje 3</h3>
-                <p>Proje hakkında kısa bir açıklama.</p>
-            </div>
-        </div>
-    </section>
+  <footer>
+    <p>&copy; 2025 Lezzetli Dönerci</p>
+  </footer>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>İletişime Geçin</h2>
-            <p>E-posta adresim: example@example.com</p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 [Adınız]. Tüm Hakları Saklıdır.</p>
-        </div>
-    </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
